@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>Tilak Education Society | S.K. College & Tatva 2026</title>
+
+  <meta name="description"
+    content="Official links for Tilak Education Society's S.K. College Fest 2026 and Tatva Shaan Concert." />
+  <meta property="og:title" content="S.K. College & Tatva Fest 2026" />
+  <meta property="og:description" content="Aura, Manthan, Kaleidoscope & Shaan Live Concert." />
+  <meta property="og:image" content="assets/poster1.webp" />
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Main Phone / Linktree Container -->
+  <div class="linktree-container" id="app">
+
+    <!-- Dynamic Responsive Background Slider -->
+    <div class="bg-slider" id="bgSlider">
+      <div class="bg-slide active" id="slide1">
+        <div class="ambient-glow" style="background-image: url('assets/poster1.webp');"></div>
+        <div class="poster-view" style="background-image: url('assets/poster1.webp');"></div>
+        <div class="bg-overlay"></div>
+      </div>
+      <div class="bg-slide" id="slide2">
+        <div class="ambient-glow" style="background-image: url('assets/poster2.jpg');"></div>
+        <div class="poster-view" style="background-image: url('assets/poster2.jpg');"></div>
+        <div class="bg-overlay"></div>
+      </div>
+    </div>
+
+    <!-- Top Floating Controls: Only Pause / Play Button -->
+    <header class="top-bar">
+      <button id="togglePlayBtn" class="glass-icon-btn" title="Pause / Play background auto-change"
+        aria-label="Toggle auto slide">
+        <svg class="icon-pause" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+          <rect x="6" y="4" width="4" height="16" rx="2"></rect>
+          <rect x="14" y="4" width="4" height="16" rx="2"></rect>
+        </svg>
+        <svg class="icon-play" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="display:none;">
+          <polygon points="6,4 20,12 6,20"></polygon>
+        </svg>
+      </button>
+    </header>
+
+    <!-- 3 Front Buttons: Exact 1:1 Match of Reference Mockup -->
+    <main class="links-wrapper" role="region" aria-label="Event Links">
+
+      <!-- Button 1: s.k.college -->
+      <a href="https://www.instagram.com/s.k.college?fqnt=MTI0OXBlMm1na3Q2bA==" target="_blank"
+        rel="noopener noreferrer" class="linktree-btn" id="link-sk-college">
+        <div class="btn-icon-wrapper instagram-icon">
+          <svg class="instagram-svg" viewBox="0 0 44 44" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="ig-grad" r="150%" cx="30%" cy="107%">
+                <stop offset="0%" stop-color="#fdf497" />
+                <stop offset="5%" stop-color="#fdf497" />
+                <stop offset="45%" stop-color="#fd5949" />
+                <stop offset="60%" stop-color="#d6249f" />
+                <stop offset="90%" stop-color="#285AEB" />
+              </radialGradient>
+            </defs>
+            <rect width="44" height="44" rx="11" fill="url(#ig-grad)" />
+            <rect x="8.5" y="8.5" width="27" height="27" rx="7" fill="none" stroke="#ffffff" stroke-width="2.6" />
+            <circle cx="22" cy="22" r="6.8" fill="none" stroke="#ffffff" stroke-width="2.6" />
+            <circle cx="29.2" cy="14.8" r="1.6" fill="#ffffff" />
+          </svg>
+        </div>
+        <span class="btn-text">s.k.college</span>
+      </a>
+
+      <!-- Button 2: tatva_by_tilak -->
+      <a href="https://www.instagram.com/tatva_by_tilak?avpt=MXNnbm83Y3A0bTdhYQ==" target="_blank"
+        rel="noopener noreferrer" class="linktree-btn" id="link-tatva">
+        <div class="btn-icon-wrapper instagram-icon">
+          <svg class="instagram-svg" viewBox="0 0 44 44" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+            <rect width="44" height="44" rx="11" fill="url(#ig-grad)" />
+            <rect x="8.5" y="8.5" width="27" height="27" rx="7" fill="none" stroke="#ffffff" stroke-width="2.6" />
+            <circle cx="22" cy="22" r="6.8" fill="none" stroke="#ffffff" stroke-width="2.6" />
+            <circle cx="29.2" cy="14.8" r="1.6" fill="#ffffff" />
+          </svg>
+        </div>
+        <span class="btn-text">tatva_by_tilak</span>
+      </a>
+
+      <!-- Button 3: Registration link -->
+      <a href="https://forms.gle/TZjioA525rk2iVLe7" target="_blank" rel="noopener noreferrer" class="linktree-btn"
+        id="link-registration">
+        <div class="btn-icon-wrapper link-icon">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#111111" stroke-width="2.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+        </div>
+        <span class="btn-text">Registration link</span>
+      </a>
+
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="status" aria-live="polite">Link copied to clipboard!</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
